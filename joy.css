@@ -7,7 +7,7 @@
 
 body {
   background-color: #faf0e6;
-  background-image: url("bgimage.jpg");
+  background-image: tomato;
   background-size: cover;
   color: #ffff;
   line-height: 1.6;
@@ -17,12 +17,6 @@ h1, h2, h3, h4, h5, h6 {
   color: #ff6f61;
   animation: zoomInOut 3s infinite;
   text-align: center;
-}
-
-@keyframes zoomInOut {
-  0% { transform: scale(1); }
-  50% { transform: scale(1.1); }
-  100% { transform: scale(1); }
 }
 
 .btn {
@@ -137,10 +131,6 @@ li a:hover {
   max-height: 200px;
   object-fit: cover;
   border-radius: 10px;
-}
-
-.zoom-text {
-  animation: zoomInOut 3s infinite;
 }
 
 .products {
